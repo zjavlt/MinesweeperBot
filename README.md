@@ -4,7 +4,7 @@
 
 This project is a bot developed using **Java** and **Selenium WebDriver** to automatically play and solve a web-based version of the game Minesweeper.
 
-Beyond simple web page manipulation, the bot analyzes the state of the game board in real-time, making decisions through logical deduction and heuristic-based algorithms. This project served as a practical application for learning object-oriented design, test automation, dynamic web page handling, and basic game AI logic.
+Beyond simple web page manipulation, the bot analyzes the state of the game board in real-time, making decisions through logical deduction and heuristic-based algorithms. This project served as a practical application for learning object-oriented design, test automation, dynamic web page handling.
 
 ## Key Features
 
@@ -36,3 +36,5 @@ Beyond simple web page manipulation, the bot analyzes the state of the game boar
     * **Flood Fill (BFS)**: Implemented an efficient flood-fill algorithm using a `Queue` to process the cascading reveals when a '0' cell is clicked.
     * **Heuristic-Based Decision Making**: Developed a decision-making process that uses simple heuristics, such as exploring near low-numbered cells or clicking corners, when faced with uncertainty.
 * **Exception Handling**: Wrote robust code using multi-layered `try-catch` blocks to handle various runtime exceptions (`UnhandledAlertException`, `NoAlertPresentException`, etc.) gracefully.
+
+Readme written by Gemini.
